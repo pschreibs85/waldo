@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pschreibs85/testing1.git"
+    "url": "git+https://github.com/pschreibs85/waldo.git"
   },
   "author": "PaulSc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pschreibs85/testing1/issues"
+    "url": "https://github.com/pschreibs85/waldo/issues"
   },
-  "homepage": "https://github.com/pschreibs85/testing1#readme"
+  "homepage": "https://github.com/pschreibs85/waldo#readme"
 }

@@ -1,4 +1,4 @@
-
+//db config file
 module.exports = {
 	  client: 'sqlite3',
 	  connection: {

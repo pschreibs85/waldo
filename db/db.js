@@ -5,6 +5,7 @@ let knex = require('knex')(config);
 
 module.exports = knex;
 
+//creates db schema
 knex.ensureSchema = () => {
   return Promise.all([
     knex.schema.hasTable('photos').then( (exists) => {
@@ -25,7 +26,7 @@ knex.ensureSchema = () => {
   ])
 }
 
-
+//deletes table
 knex.truncateTable = (tableName) => {
   return knex(tableName).truncate()
     .then( () => {
@@ -33,14 +34,14 @@ knex.truncateTable = (tableName) => {
   })
 }
 
-
+//closes db connection
 knex.closeDb = () => {
   knex.destroy().then( () => {
     console.log("Closed sqlite3 connection")
   })
 }
 
-
+//inserts photo object
 knex.insertPhoto = (photoObj) => {  
   let standardizedPhotoObj = {
     key: photoObj.Key[0],
