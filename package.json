@@ -1,0 +1,26 @@
+{
+  "name": "waldo",
+  "version": "1.0.0",
+  "description": "Challange",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "sqlite3": "^3.1.8",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pschreibs85/testing1.git"
+  },
+  "author": "PaulSc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pschreibs85/testing1/issues"
+  },
+  "homepage": "https://github.com/pschreibs85/testing1#readme"
+}
