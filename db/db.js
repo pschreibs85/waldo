@@ -1,5 +1,5 @@
 'use strict'
-
+// file containing functions for interacting with database
 let config = require('./knexfile');
 let knex = require('knex')(config);
 
